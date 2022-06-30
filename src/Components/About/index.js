@@ -1,21 +1,19 @@
 import React from 'react';
 
-const About = () => {
+function About() {
   return (
-    <div id="about">
-      <h1 id="main-section-header">About me</h1>
-      <div id="about-wrapper">
-        <div id="about-inner-wrapper">
-          <h1>Hello </h1>
-          <p>
-              I am a junior full stack developer with experience in 
-              Java, Handlebars, Css, Html, API and backend data bases like MONGO and NoSQL.
-
-          </p>
-        </div>
-      </div>
-    </div>
+      <section>
+          <h1 className='text-center m-2'>Hello, and Welcome to Roydens portfolio</h1>
+          <article className='mx-lg-4'>
+              <p className='m-4 aboutText'>
+                  Currently enrolled in full stack bootcamp in UofT 
+              </p>
+              <p className='m-4 aboutText'>
+                  In this porfolio you will find some of the projects I have worked on.
+              </p>
+          </article>
+      </section>
   );
-};
+}
 
 export default About;
