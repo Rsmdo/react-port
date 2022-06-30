@@ -1,39 +1,14 @@
 import React from 'react';
-
-import { capitalizeFirstLetter } from '../../utils/helpers';
-
-const Nav = ({ setActivePage, activePage }) => {
-  const handlePage = (e) => {
-    if (e.target.innerText === 'About me') {
-      setActivePage({ about: true });
-    } else if (e.target.innerText === 'Portfolio') {
-      setActivePage({ portfolio: true });
-    } else if (e.target.innerText === 'Contact') {
-      setActivePage({ contact: true });
-    }
-  };
+function Nav(props) {
+  const {currentCategory, setCurrentCategory} = props;
   return (
-    <nav>
-    <ul className="flex-row">
-      <li className="mx-2">
-        <a data-testid="about" href="#About" onClick={() => handlePage(false)}>
-          About me
-        </a>
-      </li>
-      <li >
-        <span onClick={() => handlePage(true)}>Contact</span>
-      </li>
-        <li
-        >
-          <span
-          >
-            {capitalizeFirstLetter(activePage.name)}
-          </span>
-        </li>
-      ))
-    </ul>
-  </nav>
+      <ul className='d-flex h-50 mt-lg-4 mt-1 mx-auto mx-lg-0 p-0 flex-wrap justify-content-center'>
+          <button className={`nav-btn m-1 ${currentCategory === 'about' && 'text-primary'}`} onClick={() => setCurrentCategory('about')}>About Me</button>
+          <button className={`nav-btn m-1 ${currentCategory === 'portfolio' && 'text-primary'}`} onClick={() => setCurrentCategory('portfolio')}>Portfolio</button>
+          <button className={`nav-btn m-1 ${currentCategory === 'contact' && 'text-primary'}`} onClick={() => setCurrentCategory('contact')}>Contact</button>
+          <button className={`nav-btn m-1 ${currentCategory === 'resume' && 'text-primary'}`} onClick={() => setCurrentCategory('resume')}>Resume</button>
+      </ul>
   );
-};
+}
 
 export default Nav;
