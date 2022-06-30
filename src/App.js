@@ -5,6 +5,7 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Resume from './Components/Resume';
 import Footer from './Components/Footer';
+import './index.css';
 
 function App() {
   const [categories] = useState(['about', 'portfolio', 'contact', 'resume']);
