@@ -35,8 +35,9 @@ header h1 {
 }
 
 main h1 {
-  color: white important;
-  font-weight:800;
+  color: white !important;
+  font-weight:600;
+  font-size: 60px;
 }
 
 
@@ -90,25 +91,6 @@ main h1 {
 
 .customCard:hover .cardInfo {
   opacity: 1;
-}
-
-.react-pdf__Page__canvas {
-  margin: 15px auto;
-  max-width: 612px;
-  width: 95%!important;
-}
-
-.react-pdf__Page__annotations {
-  height: 0;
-}
-
-.react-pdf__Page__textContent span {
-  white-space: nowrap!important;
-}
-
-.react-pdf__Page__textContent {
-  width: 100%!important;
-  position: fixed!important;
 }
 
 footer {
