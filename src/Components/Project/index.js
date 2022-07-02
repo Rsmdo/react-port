@@ -1,6 +1,6 @@
 import React from 'react';
-import project1 from "/";
-import project2 from '/';
+import project1 from "../../images/project1.png";
+import project2 from '../../images/project2.png';
 const Project = () => {
   const projectList = [
     {

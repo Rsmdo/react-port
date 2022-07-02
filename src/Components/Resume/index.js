@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../../Avatar'
+import avatar from '../../images/pfp.png'
 import CV from 'react-cv'
 const Resume = () => {
   
@@ -17,8 +17,8 @@ const Resume = () => {
     ]}}
     sections= {[{
       type: 'text',
-      title: 'Career Profile',
-      content: 'When I was child, I always want to be a developer.',
+      title: 'Summary',
+      content: 'Full Stack Web Developer and Finance student with a life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. Known among collogues for strong attention to detail no matter the complexity of the project or task.   ',
       icon: 'usertie'
     },
     {
