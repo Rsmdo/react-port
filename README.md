@@ -5,6 +5,12 @@
 
   ## Description 
   This is a portfolio created using React 
+  
+  
+  <img width="1282" alt="Screen Shot 2022-07-04 at 12 33 40 PM" src="https://user-images.githubusercontent.com/98415796/177193070-141d74bc-d3e6-47e5-b8f3-684b95bde6aa.png">
+
+  
+  
 
   ## Table of Contents
   - [Installation](#installation)
