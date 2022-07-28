@@ -1,6 +1,7 @@
 import React from 'react';
 import project1 from "../../images/project1.png";
 import project2 from '../../images/project2.png';
+import project3 from '../../images/project3.png';
 const Project = () => {
   const projectList = [
     {
@@ -16,10 +17,19 @@ const Project = () => {
         id: 1,
         title: "Re-imagined system ",
         tech: "Handlebars Tailwind MVC chart.js Nosql ",
-        img: project2,
-        description: "This is a inventory management system with security, and a full backend system. User can sign-in and add inventory and be provided with a interactive UI",
+        img: project3,
+        description: "This is an ecommerce site designed especially for pet owners to buy and sell pet products",
         repo: "https://github.com/project0204/reimagined-system",
         live: "https://reimagined-system.herokuapp.com",
+    },
+    {
+        id: 2,
+        title: "Pet Stuff Plus",
+        tech: "React ChakraUI MERN GraphQL Mongo",
+        img: project2,
+        description: "This is a inventory management system with security, and a full backend system. User can sign-in and add inventory and be provided with a interactive UI",
+        repo: "https://github.com/project0301/paws",
+        live: "https://petstuffplus.herokuapp.com/",
     },
 ]
   
